@@ -1,4 +1,4 @@
-# ADHD EEG Classification Project
+# COGS189 ADHD EEG Classification Project
 
 This project aims to classify ADHD vs. Control subjects using EEG data and machine learning techniques. The approach extracts spectral power features from EEG signals and uses Support Vector Machines (SVM) for classification.
 
@@ -17,8 +17,8 @@ This project aims to classify ADHD vs. Control subjects using EEG data and machi
 
 1. Create a virtual environment (recommended):
    ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   conda create -n nameyouchoose python=3.9
+   conda activate nameyouchoose
    ```
 
 2. Install required packages:
@@ -57,3 +57,28 @@ The script provides:
 ## Next Steps
 
 
+## References
+
+1. **Spectral Power Features**  
+   - *Duan, L., Liu, Q., Zhao, X., Li, P., Huang, Y., & Dai, W. (2020).* Investigation of EEG power spectral slope in medication-naive children with ADHD. *Frontiers in Psychiatry*, 10, 926.  
+     [PMCID: PMC6966317](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6966317/)
+
+2. **Hjorth Parameters**  
+   - *Azami, H., et al. (2023).* Time-domain features including Hjorth parameters for discrimination between ADHD patients and healthy controls. In *EUSIPCO 2023 Proceedings*, 1065–1069.  
+     [Link](https://eurasip.org/Proceedings/Eusipco/Eusipco2023/pdfs/0001065.pdf)
+
+3. **Sample Entropy**  
+   - *Meng, L., et al. (2021).* Comparison of different entropy estimators for ADHD and control EEG signals. *Biomedical Signal Processing and Control*, 69, 102890.  
+     [PMID: 34424101](https://pubmed.ncbi.nlm.nih.gov/34424101/)
+
+4. **Connectivity Measures**  
+   - *Tomescu, M. I., et al. (2022).* EEG microstate dynamics and frequency features in ADHD. *European Child & Adolescent Psychiatry*, 31, 689–701.  
+     [DOI: 10.1007/s00787-022-02068-6](https://link.springer.com/article/10.1007/s00787-022-02068-6)
+
+5. **Increased Alpha Power and Steeper Spectral Slopes in Medication-Naive Children with ADHD**  
+   [PMC6966317](https://pmc.ncbi.nlm.nih.gov/articles/PMC6966317/)  
+   This study investigated EEG power spectral slope in children with ADHD, finding that medication-naive children exhibited higher alpha power and steeper spectral slopes. Their findings support the use of frequency-specific power as a potential biomarker for ADHD.
+
+
+
+---
